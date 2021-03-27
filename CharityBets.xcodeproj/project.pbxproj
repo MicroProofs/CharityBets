@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9F290AB260EF158003195E3 /* CharityBetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F290AA260EF158003195E3 /* CharityBetsApp.swift */; };
+		E9F290AD260EF158003195E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F290AC260EF158003195E3 /* ContentView.swift */; };
+		E9F290AF260EF15A003195E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F290AE260EF15A003195E3 /* Assets.xcassets */; };
+		E9F290B2260EF15A003195E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F290B1260EF15A003195E3 /* Preview Assets.xcassets */; };
+		E9F290BD260EF15A003195E3 /* CharityBetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F290BC260EF15A003195E3 /* CharityBetsTests.swift */; };
+		E9F290C8260EF15B003195E3 /* CharityBetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F290C7260EF15B003195E3 /* CharityBetsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F290B9260EF15A003195E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F2909F260EF158003195E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F290A6260EF158003195E3;
+			remoteInfo = CharityBets;
+		};
+		E9F290C4260EF15B003195E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F2909F260EF158003195E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F290A6260EF158003195E3;
+			remoteInfo = CharityBets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9F290A7260EF158003195E3 /* CharityBets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharityBets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F290AA260EF158003195E3 /* CharityBetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityBetsApp.swift; sourceTree = "<group>"; };
+		E9F290AC260EF158003195E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9F290AE260EF15A003195E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F290B1260EF15A003195E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9F290B3260EF15A003195E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F290B8260EF15A003195E3 /* CharityBetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharityBetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F290BC260EF15A003195E3 /* CharityBetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityBetsTests.swift; sourceTree = "<group>"; };
+		E9F290BE260EF15A003195E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F290C3260EF15B003195E3 /* CharityBetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharityBetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F290C7260EF15B003195E3 /* CharityBetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityBetsUITests.swift; sourceTree = "<group>"; };
+		E9F290C9260EF15B003195E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F290A4260EF158003195E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F290B5260EF15A003195E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F290C0260EF15B003195E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F2909E260EF158003195E3 = {
+			isa = PBXGroup;
+			children = (
+				E9F290A9260EF158003195E3 /* CharityBets */,
+				E9F290BB260EF15A003195E3 /* CharityBetsTests */,
+				E9F290C6260EF15B003195E3 /* CharityBetsUITests */,
+				E9F290A8260EF158003195E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F290A8260EF158003195E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F290A7260EF158003195E3 /* CharityBets.app */,
+				E9F290B8260EF15A003195E3 /* CharityBetsTests.xctest */,
+				E9F290C3260EF15B003195E3 /* CharityBetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F290A9260EF158003195E3 /* CharityBets */ = {
+			isa = PBXGroup;
+			children = (
+				E9F290AA260EF158003195E3 /* CharityBetsApp.swift */,
+				E9F290AC260EF158003195E3 /* ContentView.swift */,
+				E9F290AE260EF15A003195E3 /* Assets.xcassets */,
+				E9F290B3260EF15A003195E3 /* Info.plist */,
+				E9F290B0260EF15A003195E3 /* Preview Content */,
+			);
+			path = CharityBets;
+			sourceTree = "<group>";
+		};
+		E9F290B0260EF15A003195E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9F290B1260EF15A003195E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9F290BB260EF15A003195E3 /* CharityBetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F290BC260EF15A003195E3 /* CharityBetsTests.swift */,
+				E9F290BE260EF15A003195E3 /* Info.plist */,
+			);
+			path = CharityBetsTests;
+			sourceTree = "<group>";
+		};
+		E9F290C6260EF15B003195E3 /* CharityBetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F290C7260EF15B003195E3 /* CharityBetsUITests.swift */,
+				E9F290C9260EF15B003195E3 /* Info.plist */,
+			);
+			path = CharityBetsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F290A6260EF158003195E3 /* CharityBets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F290CC260EF15B003195E3 /* Build configuration list for PBXNativeTarget "CharityBets" */;
+			buildPhases = (
+				E9F290A3260EF158003195E3 /* Sources */,
+				E9F290A4260EF158003195E3 /* Frameworks */,
+				E9F290A5260EF158003195E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CharityBets;
+			productName = CharityBets;
+			productReference = E9F290A7260EF158003195E3 /* CharityBets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F290B7260EF15A003195E3 /* CharityBetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F290CF260EF15B003195E3 /* Build configuration list for PBXNativeTarget "CharityBetsTests" */;
+			buildPhases = (
+				E9F290B4260EF15A003195E3 /* Sources */,
+				E9F290B5260EF15A003195E3 /* Frameworks */,
+				E9F290B6260EF15A003195E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F290BA260EF15A003195E3 /* PBXTargetDependency */,
+			);
+			name = CharityBetsTests;
+			productName = CharityBetsTests;
+			productReference = E9F290B8260EF15A003195E3 /* CharityBetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F290C2260EF15B003195E3 /* CharityBetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F290D2260EF15B003195E3 /* Build configuration list for PBXNativeTarget "CharityBetsUITests" */;
+			buildPhases = (
+				E9F290BF260EF15B003195E3 /* Sources */,
+				E9F290C0260EF15B003195E3 /* Frameworks */,
+				E9F290C1260EF15B003195E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F290C5260EF15B003195E3 /* PBXTargetDependency */,
+			);
+			name = CharityBetsUITests;
+			productName = CharityBetsUITests;
+			productReference = E9F290C3260EF15B003195E3 /* CharityBetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F2909F260EF158003195E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E9F290A6260EF158003195E3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E9F290B7260EF15A003195E3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E9F290A6260EF158003195E3;
+					};
+					E9F290C2260EF15B003195E3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E9F290A6260EF158003195E3;
+					};
+				};
+			};
+			buildConfigurationList = E9F290A2260EF158003195E3 /* Build configuration list for PBXProject "CharityBets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F2909E260EF158003195E3;
+			productRefGroup = E9F290A8260EF158003195E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F290A6260EF158003195E3 /* CharityBets */,
+				E9F290B7260EF15A003195E3 /* CharityBetsTests */,
+				E9F290C2260EF15B003195E3 /* CharityBetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F290A5260EF158003195E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F290B2260EF15A003195E3 /* Preview Assets.xcassets in Resources */,
+				E9F290AF260EF15A003195E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F290B6260EF15A003195E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F290C1260EF15B003195E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F290A3260EF158003195E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F290AD260EF158003195E3 /* ContentView.swift in Sources */,
+				E9F290AB260EF158003195E3 /* CharityBetsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F290B4260EF15A003195E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F290BD260EF15A003195E3 /* CharityBetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F290BF260EF15B003195E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F290C8260EF15B003195E3 /* CharityBetsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F290BA260EF15A003195E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F290A6260EF158003195E3 /* CharityBets */;
+			targetProxy = E9F290B9260EF15A003195E3 /* PBXContainerItemProxy */;
+		};
+		E9F290C5260EF15B003195E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F290A6260EF158003195E3 /* CharityBets */;
+			targetProxy = E9F290C4260EF15B003195E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9F290CA260EF15B003195E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9F290CB260EF15B003195E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F290CD260EF15B003195E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CharityBets/Preview Content\"";
+				DEVELOPMENT_TEAM = VF7FG6555U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CharityBets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joincharityBets.CharityBets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F290CE260EF15B003195E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CharityBets/Preview Content\"";
+				DEVELOPMENT_TEAM = VF7FG6555U;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CharityBets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joincharityBets.CharityBets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9F290D0260EF15B003195E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF7FG6555U;
+				INFOPLIST_FILE = CharityBetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joincharityBets.CharityBetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharityBets.app/CharityBets";
+			};
+			name = Debug;
+		};
+		E9F290D1260EF15B003195E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF7FG6555U;
+				INFOPLIST_FILE = CharityBetsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joincharityBets.CharityBetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharityBets.app/CharityBets";
+			};
+			name = Release;
+		};
+		E9F290D3260EF15B003195E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF7FG6555U;
+				INFOPLIST_FILE = CharityBetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joincharityBets.CharityBetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CharityBets;
+			};
+			name = Debug;
+		};
+		E9F290D4260EF15B003195E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF7FG6555U;
+				INFOPLIST_FILE = CharityBetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joincharityBets.CharityBetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CharityBets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F290A2260EF158003195E3 /* Build configuration list for PBXProject "CharityBets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F290CA260EF15B003195E3 /* Debug */,
+				E9F290CB260EF15B003195E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F290CC260EF15B003195E3 /* Build configuration list for PBXNativeTarget "CharityBets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F290CD260EF15B003195E3 /* Debug */,
+				E9F290CE260EF15B003195E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F290CF260EF15B003195E3 /* Build configuration list for PBXNativeTarget "CharityBetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F290D0260EF15B003195E3 /* Debug */,
+				E9F290D1260EF15B003195E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F290D2260EF15B003195E3 /* Build configuration list for PBXNativeTarget "CharityBetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F290D3260EF15B003195E3 /* Debug */,
+				E9F290D4260EF15B003195E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F2909F260EF158003195E3 /* Project object */;
+}
